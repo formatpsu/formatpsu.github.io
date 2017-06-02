@@ -469,6 +469,15 @@ pre {
 body {
   font-family: "Montserrat"; }
 
+.trigger {
+  line-height: 83px; }
+
+.header-img {
+  padding-bottom: 20px; }
+
+.home-content {
+  text-align: center; }
+
 @media screen and (max-width: 800px) {
   .site-nav {
     position: absolute;
