@@ -469,6 +469,20 @@ pre {
 body {
   font-family: "Montserrat"; }
 
+.wrapper {
+  max-width: -webkit-calc(800px);
+  max-width: calc(800px);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      max-width: -webkit-calc(800px);
+      max-width: calc(800px);
+      padding-right: 15px;
+      padding-left: 15px; } }
+
 .trigger {
   line-height: 83px; }
 
