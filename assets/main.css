@@ -483,6 +483,12 @@ body {
       padding-right: 15px;
       padding-left: 15px; } }
 
+.app-frame {
+  text-align: center;
+  width: 760px;
+  height: 500px;
+  margin: 0 auto; }
+
 .trigger {
   line-height: 83px; }
 
