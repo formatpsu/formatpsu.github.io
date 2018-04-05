@@ -466,14 +466,6 @@ pre {
   .highlight .il {
     color: #099; }
 
-#profile-img {
-  max-width: 300px;
-  max-height: 200px;
-  padding: 5px; }
-
-img {
-  image-orientation: from-image; }
-
 body {
   font-family: "Montserrat"; }
 
@@ -774,3 +766,7 @@ body {
     display: none !important;
     width: 0;
     height: 0; } }
+#profile-img {
+  max-width: 300px;
+  max-height: 200px;
+  padding: 5px; }
