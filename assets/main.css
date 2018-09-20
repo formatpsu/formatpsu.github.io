@@ -495,8 +495,29 @@ body {
 .header-img {
   padding-bottom: 20px; }
 
-.home-content {
+.home-content h2 {
   text-align: center; }
+
+.home-content .box {
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: 3px; }
+
+.home-content .box a {
+  color: black; }
+
+.home-content .about {
+  background-color: #6c698d; }
+
+.home-content .mission {
+  background-color: #aa968a; }
+
+.home-content .apply {
+  background-color: #d4d2d5; }
+
+.home-content .meet {
+  background-color: #6e6a6f; }
 
 @media screen and (max-width: 800px) {
   .site-nav {
@@ -770,3 +791,66 @@ body {
   max-width: 300px;
   max-height: 200px;
   padding: 5px; }
+
+.home-header {
+  background: url(/../img/group-min-2.png) no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: top;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  color: white;
+  height: 70vh; }
+  .home-header .site-nav {
+    margin-right: 10px; }
+    .home-header .site-nav .page-link {
+      color: white;
+      text-shadow: 1px 1px 2px #6e6a6f; }
+  @media screen and (max-width: 800px) {
+    .home-header {
+      height: 25vh; }
+      .home-header .site-nav {
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        background-color: #fdfdfd;
+        border: 1px solid #e8e8e8;
+        border-radius: 5px;
+        text-align: right; }
+        .home-header .site-nav .menu-icon {
+          display: block;
+          float: right;
+          width: 36px;
+          height: 26px;
+          line-height: 0;
+          padding-top: 10px;
+          text-align: center; }
+          .home-header .site-nav .menu-icon > svg {
+            width: 18px;
+            height: 15px; }
+            .home-header .site-nav .menu-icon > svg path {
+              fill: #424242; }
+        .home-header .site-nav .trigger {
+          clear: both;
+          display: none; }
+        .home-header .site-nav:hover .trigger {
+          display: block;
+          padding-bottom: 5px; }
+        .home-header .site-nav .page-link {
+          display: block;
+          padding: 5px 10px;
+          color: black;
+          text-shadow: none;
+          margin-left: 20px; }
+          .home-header .site-nav .page-link:not(:last-child) {
+            margin-right: 0; } }
+  @media screen and (max-width: 600px) {
+    .home-header {
+      height: 15vh; } }
